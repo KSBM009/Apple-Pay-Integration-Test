@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA4F9BA12E3E153F0069BA22 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4F9BA02E3E153F0069BA22 /* HomeVC.swift */; };
 		FAB79AF12E3E145B00477252 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB79AF02E3E145B00477252 /* AppDelegate.swift */; };
 		FAB79AF32E3E145B00477252 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB79AF22E3E145B00477252 /* SceneDelegate.swift */; };
-		FAB79AF52E3E145B00477252 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB79AF42E3E145B00477252 /* ViewController.swift */; };
 		FAB79AF82E3E145B00477252 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB79AF62E3E145B00477252 /* Main.storyboard */; };
 		FAB79AFA2E3E145E00477252 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB79AF92E3E145E00477252 /* Assets.xcassets */; };
 		FAB79AFD2E3E145E00477252 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB79AFB2E3E145E00477252 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA4F9BA02E3E153F0069BA22 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FAB79AED2E3E145B00477252 /* Apple Pay Integration Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Pay Integration Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB79AF02E3E145B00477252 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB79AF22E3E145B00477252 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAB79AF42E3E145B00477252 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FAB79AF72E3E145B00477252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB79AF92E3E145E00477252 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB79AFC2E3E145E00477252 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				FAB79AF02E3E145B00477252 /* AppDelegate.swift */,
 				FAB79AF22E3E145B00477252 /* SceneDelegate.swift */,
-				FAB79AF42E3E145B00477252 /* ViewController.swift */,
+				FA4F9BA02E3E153F0069BA22 /* HomeVC.swift */,
 				FAB79AF62E3E145B00477252 /* Main.storyboard */,
 				FAB79AF92E3E145E00477252 /* Assets.xcassets */,
 				FAB79AFB2E3E145E00477252 /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB79AF52E3E145B00477252 /* ViewController.swift in Sources */,
+				FA4F9BA12E3E153F0069BA22 /* HomeVC.swift in Sources */,
 				FAB79AF12E3E145B00477252 /* AppDelegate.swift in Sources */,
 				FAB79AF32E3E145B00477252 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,6 +292,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZ5MU4E2SQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pay Integration Test App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -319,6 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MZ5MU4E2SQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Apple Pay Integration Test App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
